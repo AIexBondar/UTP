@@ -1,0 +1,200 @@
+Country	Capital	Population	Flag
+Afghanistan	Kabul	25500100	http://flags.fmcdn.net/data/flags/h20/af.png
+Albania	Tirana	2821977	http://flags.fmcdn.net/data/flags/h20/al.png
+Algeria	Algiers	38700000	http://flags.fmcdn.net/data/flags/h20/dz.png
+Andorra	Andorra la Vella	76098	http://flags.fmcdn.net/data/flags/h20/ad.png
+Angola	Luanda	20609294	http://flags.fmcdn.net/data/flags/h20/ao.png
+Antigua and Barbuda	St. John's	86295	http://flags.fmcdn.net/data/flags/h20/ag.png
+Argentina	Buenos Aires	41660096	http://flags.fmcdn.net/data/flags/h20/ar.png
+Armenia	Yerevan	3017400	http://flags.fmcdn.net/data/flags/h20/am.png
+Australia	Canberra	23414552	http://flags.fmcdn.net/data/flags/h20/au.png
+Austria	Vienna	8504850	http://flags.fmcdn.net/data/flags/h20/at.png
+Azerbaijan	Baku	9477100	http://flags.fmcdn.net/data/flags/h20/az.png
+The Bahamas	Nassau	351461	http://flags.fmcdn.net/data/flags/h20/bs.png
+Bahrain	Manama	1234571	http://flags.fmcdn.net/data/flags/h20/bh.png
+Bangladesh	Dhaka	152518015	http://flags.fmcdn.net/data/flags/h20/bd.png
+Barbados	Bridgetown	285	http://flags.fmcdn.net/data/flags/h20/bb.png
+Belarus	Minsk	9468100	http://flags.fmcdn.net/data/flags/h20/by.png
+Belgium	Brussels	11132269	http://flags.fmcdn.net/data/flags/h20/be.png
+Belize	Belmopan	349728	http://flags.fmcdn.net/data/flags/h20/bz.png
+Benin	Porto-Novo	10323000	http://flags.fmcdn.net/data/flags/h20/bj.png
+Bhutan	Thimphu	7452	http://flags.fmcdn.net/data/flags/h20/bt.png
+Bolivia	Sucre	10027254	http://flags.fmcdn.net/data/flags/h20/bo.png
+Bosnia and Herzegovina	Sarajevo	3791622	http://flags.fmcdn.net/data/flags/h20/ba.png
+Botswana	Gaborone	2024904	http://flags.fmcdn.net/data/flags/h20/bw.png
+Brazil	Brasília	201032714	http://flags.fmcdn.net/data/flags/h20/br.png
+Brunei	Bandar Seri Begawan	393162	http://flags.fmcdn.net/data/flags/h20/bn.png
+Bulgaria	Sofia	7282041	http://flags.fmcdn.net/data/flags/h20/bg.png
+Burkina Faso	Ouagadougou	17322796	http://flags.fmcdn.net/data/flags/h20/bf.png
+Burundi	Bujumbura	10163000	http://flags.fmcdn.net/data/flags/h20/bi.png
+Cambodia	Phnom Penh	15135000	http://flags.fmcdn.net/data/flags/h20/kh.png
+Cameroon	Yaoundé	20386799	http://flags.fmcdn.net/data/flags/h20/cm.png
+Canada	Ottawa	35295770	http://flags.fmcdn.net/data/flags/h20/ca.png
+Cape Verde	Praia	491875	http://flags.fmcdn.net/data/flags/h20/cv.png
+The Central African Republic	Bangui	4616000	http://flags.fmcdn.net/data/flags/h20/cf.png
+Chad	N'Djamena	12825000	http://flags.fmcdn.net/data/flags/h20/td.png
+Chile	Santiago	16341929	http://flags.fmcdn.net/data/flags/h20/cl.png
+Colombia	Bogotá	47506000	http://flags.fmcdn.net/data/flags/h20/co.png
+The Comoros	Moroni	743798	http://flags.fmcdn.net/data/flags/h20/km.png
+Cook Islands	Avarua	14974	http://flags.fmcdn.net/data/flags/h20/ck.png
+Costa Rica	San José	4667096	http://flags.fmcdn.net/data/flags/h20/cr.png
+Cote d'Ivoire	Yamoussoukro	23202000	http://flags.fmcdn.net/data/flags/h20/ci.png
+Croatia	Zagreb	4290612	http://flags.fmcdn.net/data/flags/h20/hr.png
+Cuba	Havana	11167325	http://flags.fmcdn.net/data/flags/h20/cu.png
+Cyprus	Nicosia	865878	http://flags.fmcdn.net/data/flags/h20/cy.png
+The Czech Republic	Prague	10513800	http://flags.fmcdn.net/data/flags/h20/cz.png
+The Democratic Republic of the Congo	Kinshasa	67514000	http://flags.fmcdn.net/data/flags/h20/cd.png
+Denmark	Copenhagen	5627235	http://flags.fmcdn.net/data/flags/h20/dk.png
+Djibouti	Djibouti	873	http://flags.fmcdn.net/data/flags/h20/dj.png
+Dominica	Roseau	71293	http://flags.fmcdn.net/data/flags/h20/dm.png
+The Dominican Republic	Santo Domingo	9445281	http://flags.fmcdn.net/data/flags/h20/do.png
+East Timor	Dili	1066409	http://flags.fmcdn.net/data/flags/h20/tl.png
+Ecuador	Quito	15699200	http://flags.fmcdn.net/data/flags/h20/ec.png
+Egypt	Cairo	86127000	http://flags.fmcdn.net/data/flags/h20/eg.png
+El Salvador	San Salvador	6340000	http://flags.fmcdn.net/data/flags/h20/sv.png
+Equatorial Guinea	Malabo	736296	http://flags.fmcdn.net/data/flags/h20/gq.png
+Eritrea	Asmara	6333000	http://flags.fmcdn.net/data/flags/h20/er.png
+Estonia	Tallinn	1311870	http://flags.fmcdn.net/data/flags/h20/er.png
+Ethiopia	Addis Ababa	86613986	http://flags.fmcdn.net/data/flags/h20/et.png
+Fiji	Suva	858038	http://flags.fmcdn.net/data/flags/h20/fj.png
+Finland	Helsinki	5452821	http://flags.fmcdn.net/data/flags/h20/fi.png
+France	Paris	65844000	http://flags.fmcdn.net/data/flags/h20/fr.png
+Gabon	Libreville	1672000	http://flags.fmcdn.net/data/flags/h20/ga.png
+The Gambia	Banjul	1849000	http://flags.fmcdn.net/data/flags/h20/gm.png
+Georgia	Tbilisi	4483800	http://flags.fmcdn.net/data/flags/h20/ge.png
+Germany	Berlin	80619000	http://flags.fmcdn.net/data/flags/h20/de.png
+Ghana	Accra	24658823	http://flags.fmcdn.net/data/flags/h20/gh.png
+Greece	Athens	10815197	http://flags.fmcdn.net/data/flags/h20/gr.png
+Grenada	St. George's	103328	http://flags.fmcdn.net/data/flags/h20/gd.png
+Guatemala	Guatemala City	15806675	http://flags.fmcdn.net/data/flags/h20/gt.png
+Guinea	Conakry	10824200	http://flags.fmcdn.net/data/flags/h20/gn.png
+Guinea-Bissau	Bissau	1704000	http://flags.fmcdn.net/data/flags/h20/gw.png
+Guyana	Georgetown	784894	http://flags.fmcdn.net/data/flags/h20/gy.png
+Haiti	Port-au-Prince	10413211	http://flags.fmcdn.net/data/flags/h20/ht.png
+Honduras	Tegucigalpa	8555072	http://flags.fmcdn.net/data/flags/h20/hn.png
+Hungary	Budapest	9906000	http://flags.fmcdn.net/data/flags/h20/hu.png
+Iceland	Reykjavík	325671	http://flags.fmcdn.net/data/flags/h20/is.png
+India	New Delhi	1241610000	http://flags.fmcdn.net/data/flags/h20/in.png
+Indonesia	Jakarta	249866000	http://flags.fmcdn.net/data/flags/h20/id.png
+Iran	Tehran	77288000	http://flags.fmcdn.net/data/flags/h20/ir.png
+Iraq	Baghdad	34035000	http://flags.fmcdn.net/data/flags/h20/iq.png
+Ireland	Dublin	4593100	http://flags.fmcdn.net/data/flags/h20/ie.png
+Israel	Jerusalem	8146300	http://flags.fmcdn.net/data/flags/h20/il.png
+Italy	Rome	59943933	http://flags.fmcdn.net/data/flags/h20/it.png
+Jamaica	Kingston	2711476	http://flags.fmcdn.net/data/flags/h20/jm.png
+Japan	Tokyo	127180000	http://flags.fmcdn.net/data/flags/h20/jp.png
+Jordan	Amman	6558900	http://flags.fmcdn.net/data/flags/h20/kz.png
+Kazakhstan	Astana	17186000	http://flags.fmcdn.net/data/flags/h20/kz.png
+Kenya	Nairobi	44354000	http://flags.fmcdn.net/data/flags/h20/ke.png
+Kiribati	South Tarawa	106461	http://flags.fmcdn.net/data/flags/h20/ki.png
+Kosovo	Pristina	1815606	http://flags.fmcdn.net/data/flags/h20/ks.png
+Kuwait	Kuwait City	3065850	http://flags.fmcdn.net/data/flags/h20/kw.png
+Kyrgyzstan	Bishkek	5663133	http://flags.fmcdn.net/data/flags/h20/kg.png
+Laos	Vientiane	6580800	http://flags.fmcdn.net/data/flags/h20/la.png
+Latvia	Riga	2003900	http://flags.fmcdn.net/data/flags/h20/lv.png
+Lebanon	Beirut	4822000	http://flags.fmcdn.net/data/flags/h20/lb.png
+Lesotho	Maseru	2074000	http://flags.fmcdn.net/data/flags/h20/ls.png
+Liberia	Monrovia	4294000	http://flags.fmcdn.net/data/flags/h20/lr.png
+Libya	Tripoli	6202000	http://flags.fmcdn.net/data/flags/h20/ly.png
+Liechtenstein	Vaduz	37132	http://flags.fmcdn.net/data/flags/h20/li.png
+Lithuania	Vilnius	2941953	http://flags.fmcdn.net/data/flags/h20/lt.png
+Luxembourg	Luxembourg City	537	http://flags.fmcdn.net/data/flags/h20/lu.png
+Macedonia	Skopje	2062294	http://flags.fmcdn.net/data/flags/h20/mk.png
+Madagascar	Antananarivo	21263403	http://flags.fmcdn.net/data/flags/h20/mg.png
+Malawi	Lilongwe	16363000	http://flags.fmcdn.net/data/flags/h20/mw.png
+Malaysia	Kuala Lumpur	30041000	http://flags.fmcdn.net/data/flags/h20/my.png
+Maldives	Malé	31728	http://flags.fmcdn.net/data/flags/h20/mv.png
+Mali	Bamako	15302000	http://flags.fmcdn.net/data/flags/h20/ml.png
+Malta	Valletta	416055	http://flags.fmcdn.net/data/flags/h20/mt.png
+The Marshall Islands	Majuro	56086	http://flags.fmcdn.net/data/flags/h20/mh.png
+Mauritania	Nouakchott	3461041	http://flags.fmcdn.net/data/flags/h20/mr.png
+Mauritius	Port Louis	1257900	http://flags.fmcdn.net/data/flags/h20/mu.png
+Mexico	Mexico City	119713203	http://flags.fmcdn.net/data/flags/h20/mx.png
+Micronesia	Palikir	101351	http://flags.fmcdn.net/data/flags/h20/fm.png
+Moldova	Chisinau	3559500	http://flags.fmcdn.net/data/flags/h20/md.png
+Monaco	Monaco	36136	http://flags.fmcdn.net/data/flags/h20/mc.png
+Mongolia	Ulaanbaatar	2931300	http://flags.fmcdn.net/data/flags/h20/mn.png
+Montenegro	Podgorica	620029	http://flags.fmcdn.net/data/flags/h20/me.png
+Morocco	Rabat	33202300	http://flags.fmcdn.net/data/flags/h20/ma.png
+Mozambique	Maputo	23700715	http://flags.fmcdn.net/data/flags/h20/mz.png
+Myanmar	Naypyidaw	53259000	http://flags.fmcdn.net/data/flags/h20/mm.png
+Namibia	Windhoek	2113077	http://flags.fmcdn.net/data/flags/h20/na.png
+Nauru	Yaren District	9945	http://flags.fmcdn.net/data/flags/h20/nr.png
+Nepal	Kathmandu	26494504	http://flags.fmcdn.net/data/flags/h20/np.png
+The Netherlands	Amsterdam	16842200	http://flags.fmcdn.net/data/flags/h20/nl.png
+New Zealand	Wellington	4518330	http://flags.fmcdn.net/data/flags/h20/nz.png
+Nicaragua	Managua	6071045	http://flags.fmcdn.net/data/flags/h20/ni.png
+Niger	Niamey	17129076	http://flags.fmcdn.net/data/flags/h20/ne.png
+Nigeria	Abuja	173615000	http://flags.fmcdn.net/data/flags/h20/ng.png
+Niue	Alofi	1611	http://flags.fmcdn.net/data/flags/h20/nu.png
+North Korea	Pyongyang	24895000	http://flags.fmcdn.net/data/flags/h20/kp.png
+Norway	Oslo	5109056	http://flags.fmcdn.net/data/flags/h20/no.png
+Oman	Muscat	3957000	http://flags.fmcdn.net/data/flags/h20/om.png
+Pakistan	Islamabad	185914000	http://flags.fmcdn.net/data/flags/h20/pk.png
+Palau	Ngerulmud	20901	http://flags.fmcdn.net/data/flags/h20/pw.png
+Panama	Panama City	3405813	http://flags.fmcdn.net/data/flags/h20/pa.png
+Papua New Guinea	Port Moresby	7398500	http://flags.fmcdn.net/data/flags/h20/pg.png
+Paraguay	Asunción	6783374	http://flags.fmcdn.net/data/flags/h20/py.png
+The People's Republic of China	Beijing	1363350000	http://flags.fmcdn.net/data/flags/h20/cn.png
+Peru	Lima	30475144	http://flags.fmcdn.net/data/flags/h20/pe.png
+The Philippines	Manila	99275100	http://flags.fmcdn.net/data/flags/h20/ph.png
+Poland	Warsaw	38502396	http://flags.fmcdn.net/data/flags/h20/pl.png
+Portugal	Lisbon	10487289	http://flags.fmcdn.net/data/flags/h20/pt.png
+Qatar	Doha	2045239	http://flags.fmcdn.net/data/flags/h20/qa.png
+The Republic of China	Taipei	23379129	http://flags.fmcdn.net/data/flags/h20/tw.png
+The Republic of the Congo	Brazzaville	4448000	http://flags.fmcdn.net/data/flags/h20/cg.png
+Romania	Bucharest	20121641	http://flags.fmcdn.net/data/flags/h20/ro.png
+Russia	Moscow	143700000	http://flags.fmcdn.net/data/flags/h20/ru.png
+Rwanda	Kigali	10537222	http://flags.fmcdn.net/data/flags/h20/rw.png
+Saint Kitts and Nevis	Basseterre	54	http://flags.fmcdn.net/data/flags/h20/vc.png
+Saint Lucia	Castries	180	http://flags.fmcdn.net/data/flags/h20/lc.png
+Saint Vincent and the Grenadines	Kingstown	109	http://flags.fmcdn.net/data/flags/h20/ws.png
+Samoa	Apia	18782	http://flags.fmcdn.net/data/flags/h20/ws.png
+San Marino	San Marino	3354	http://flags.fmcdn.net/data/flags/h20/sm.png
+Sao Tome and Principe	São Tomé	187356	http://flags.fmcdn.net/data/flags/h20/st.png
+Saudi Arabia	Riyadh	29994272	http://flags.fmcdn.net/data/flags/h20/sa.png
+Senegal	Dakar	13567338	http://flags.fmcdn.net/data/flags/h20/sn.png
+Serbia	Belgrade	7181505	http://flags.fmcdn.net/data/flags/h20/rs.png
+The Seychelles	Victoria	90945	http://flags.fmcdn.net/data/flags/h20/sc.png
+Sierra Leone	Freetown	6190280	http://flags.fmcdn.net/data/flags/h20/sl.png
+Singapore	Singapore	5399200	http://flags.fmcdn.net/data/flags/h20/sg.png
+Slovakia	Bratislava	5415949	http://flags.fmcdn.net/data/flags/h20/sk.png
+Slovenia	Ljubljana	2061963	http://flags.fmcdn.net/data/flags/h20/sb.png
+The Solomon Islands	Honiara	581344	http://flags.fmcdn.net/data/flags/h20/sb.png
+Somalia	Mogadishu	10496000	http://flags.fmcdn.net/data/flags/h20/so.png
+South Africa	Pretoria	52981991	http://flags.fmcdn.net/data/flags/h20/za.png
+South Korea	Seoul	50219669	http://flags.fmcdn.net/data/flags/h20/kr.png
+South Sudan	Juba	10625176	http://flags.fmcdn.net/data/flags/h20/ss.png
+Spain	Madrid	46609700	http://flags.fmcdn.net/data/flags/h20/es.png
+Sri Lanka	Colombo	20277597	http://flags.fmcdn.net/data/flags/h20/lk.png
+Sudan	Khartoum	37964000	http://flags.fmcdn.net/data/flags/h20/sd.png
+Suriname	Paramaribo	534189	http://flags.fmcdn.net/data/flags/h20/sr.png
+Swaziland	Mbabane	1250000	http://flags.fmcdn.net/data/flags/h20/sz.png
+Sweden	Stockholm	9651531	http://flags.fmcdn.net/data/flags/h20/se.png
+Switzerland	Bern	8112200	http://flags.fmcdn.net/data/flags/h20/ch.png
+Syria	Damascus	21898000	http://flags.fmcdn.net/data/flags/h20/sy.png
+Tajikistan	Dushanbe	8160000	http://flags.fmcdn.net/data/flags/h20/tj.png
+Tanzania	Dodoma	44928923	http://flags.fmcdn.net/data/flags/h20/tz.png
+Thailand	Bangkok	65926261	http://flags.fmcdn.net/data/flags/h20/th.png
+Togo	Lomé	6191155	http://flags.fmcdn.net/data/flags/h20/tg.png
+Tonga	Nuku'alofa	103036	http://flags.fmcdn.net/data/flags/h20/to.png
+Trinidad and Tobago	Port of Spain	1328019	http://flags.fmcdn.net/data/flags/h20/tt.png
+Tunisia	Tunis	10886500	http://flags.fmcdn.net/data/flags/h20/tn.png
+Turkey	Ankara	76667864	http://flags.fmcdn.net/data/flags/h20/tr.png
+Turkmenistan	Ashgabat	5240000	http://flags.fmcdn.net/data/flags/h20/tm.png
+Tuvalu	Funafuti	11323	http://flags.fmcdn.net/data/flags/h20/tv.png
+Uganda	Kampala	35357000	http://flags.fmcdn.net/data/flags/h20/ug.png
+Ukraine	Kiev (Kyiv)	45426200	http://flags.fmcdn.net/data/flags/h20/ua.png
+The United Arab Emirates	Abu Dhabi	8264070	http://flags.fmcdn.net/data/flags/h20/ae.png
+The United Kingdom	London	63705000	http://flags.fmcdn.net/data/flags/h20/gb.png
+The United States	Washington District of Columbia	317706000	http://flags.fmcdn.net/data/flags/h20/us.png
+Uruguay	Montevideo	3286314	http://flags.fmcdn.net/data/flags/h20/uy.png
+Uzbekistan	Tashkent	30183400	http://flags.fmcdn.net/data/flags/h20/uz.png
+Vanuatu	Port Vila	264652	http://flags.fmcdn.net/data/flags/h20/vu.png
+The Vatican City	Vatican City	839	http://flags.fmcdn.net/data/flags/h20/va.png
+Venezuela	Caracas	28946101	http://flags.fmcdn.net/data/flags/h20/ve.png
+Vietnam	Hanoi	89708900	http://flags.fmcdn.net/data/flags/h20/vn.png
+Western Sahara	Laayoune	567	http://flags.fmcdn.net/data/flags/h20/eh.png
+Yemen	Sanaá	25235000	http://flags.fmcdn.net/data/flags/h20/ye.png
+Zambia	Lusaka	14580290	http://flags.fmcdn.net/data/flags/h20/zm.png
+Zimbabwe	Harare	12973808	http://flags.fmcdn.net/data/flags/h20/zw.png
