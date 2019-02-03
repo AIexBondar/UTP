@@ -353,15 +353,6 @@ Katalog {user.home}/UTP6dir  zawiera pliki tekstowe (z rozszerzeniem .txt) umies
 Przeglądając rekursywnie drzewo katalogowe, zaczynające się od {user.home}/UTP6dir,  wczytać wszystkie te pliki. i połączoną ich zawartość zapisać do pliku o nazwie UTP6res.txt, znadującym się w katalogu projektu. Kodowanie pliku 
 UTP6res.txt winno być UTF-8.
 
-Poniższy gotowy fragment winien wykonać całą robotę:
-      public class Main {
-        public static void main(String[] args) {
-          String dirName = System.getProperty("user.home")+"/UTP6dir";
-          String resultFileName = "UTP6res.txt";
-          Futil.processDir(dirName, resultFileName);
-        }
-      }
-
 Uwagi:
 
 - trzeba dostarczyć definicji klasy Futil,
@@ -393,3 +384,35 @@ Uwagi:
 
 - trzeba dostarczyć definicji klasy Futil,
 - należy zastosować metody przetwarzania strumieniowego (chodzi o java.util.stream).
+
+### UTP10
+
+1. **zadanie**
+
+Napisać program, w którym uruchamiane zadania pokazywane są na liście javax.swing.JList. 
+Zadania z listy możemy odpytywac o ich stan, anulować, pokazywac ich wyniki, gdy są gotowe itp.
+
+2. **zadanie**
+
+Napisać w sposób właściwy prosty przykładowy  serwer wielowątkowy TCP/IP (na gniazdach). 
+Obsługę zleceń zrealizowac w postaci FutureTask. Zadbać o możliwość przerywania obsługi w każdym momencie.
+
+3. **zadanie**
+
+Pokazać zastosowanie read/write locków i porównać ich efektywność w stosunku do zwykłej synchronizacji.
+
+4. **zadanie**
+
+Napisać program Author-Writer przy użyciu blokujących kolejek.
+Jako argumenty program otrzymuje napisy, które co sekundę ma generować Author.
+Writer ma je wypisywać na konsoli.
+```
+
+        public class Main {
+          public static void main(String[] args) {
+            Author autor = new Author(args);
+            new Thread(autor).start();
+            new Thread(new Writer(autor)).start();
+          }
+        }
+```
