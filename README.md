@@ -211,25 +211,6 @@ To wymaga odpowiedniej definicji klasy InputConverter oraz ew. modyfikacji klasy
 Zadanie badawcze
 Przekazywanie wyjątków kontrolowanych z lambda-wyrażeń do obsługi w bloku otaczającym lambda.
 
-W kontekście:
-
-```
-  public static void main(String[] args) throws IOException {
-    /*<--
-     *  definicja operacji w postaci lambda-wyrażeń :
-     *  - flines - zwraca listę wierszy z pliku tekstowego
-     *  - join - łączy napisy z listy (zwraca napis połączonych ze sobą elementów listy napisów)
-     *  - collectInts - zwraca listę liczb całkowitych zawartych w napisie
-     *  - sum - zwraca sumę elmentów listy liczb całkowitych
-     */
-
-    String fname = System.getProperty("user.home") + "/LamComFile.txt"; 
-    InputConverter<String> fileConv = new InputConverter<>(fname);
-    List<String> lines = fileConv.convertBy(flines);
-   // ....
-}
-```
-
 Uwaga: w programie nie wolno definiować żadnych własnych interfejsów (za wyjątkiem być może rozszerzeń interfejsów z pakietu java.util.function), a więc operacje flines, join, itp. muszą opierać się na gotowych interfejsach funkcyjnych z pakietu java.util.function lub ich rozszerzeniach.
 
 Operacja flines zawiera odczyt pliku, zatem może powstać wyjątek IOException.
@@ -238,3 +219,56 @@ Ale z lambda wyrażeń, opierających się na interfejsach funkcyjnych z pakietu
 I wobec tego musimy pisać w definicji flines try { } catch { }
 Jak spowodować, aby nie było to konieczne i w przypadku powstania wyjątku IOException
 zadziałała klauzula throws metody main ?
+
+3. **zadanie**
+
+Zadanie. Lambda-wyrażenia dla niefunkcyjnych interfejsów ?
+Spowodować, by w  programie, po naciśnięciu klawisza myszki na przycisku b
+na konsoli zostało wypisane "ok".
+
+4. **zadanie**
+
+Zadanie: dodatkowe operacje na listach
+
+Stworzyć klasę XList, dostarczającą dodatkowych możliwości tworzenia list i operowania na nich.
+W klasie powinny znaleźć się odpowiednie konstruktory oraz statyczne metody of, umożliwiające tworzenie obiektów XList z innych kolekcji, tablic oraz argumentów podawanych przez przecinki.
+
+Dodatkowo pomocnicze metody do tworzenia xlist z napisów: 
+-ofChars(napis) - zwraca x-listę znaków napisu,
+-ofTokens(napis, [ sep ]) - zwraca x-listę symboli napisu, rozdzielonych separatorami z sep (jesśi brak - to białymi znakami).
+
+Oprócz tego dostarczyć metod: 
+-union(dowolna_kolekcja)  -  zwraca  nową x-list z dołączaną do tej x-list  zawartością kolekcji,
+-diff(dowolna_kolekcja) - zwraca x-list zawierającą te elementy tej x-list, które nie występują w kolekcji,
+-unique() - zwraca nową x-list, która zawiera wszystkie niepowtarzające się elementy tej x-list
+-combine() - zwraca x-listę list-kombinacji elementów z poszczególnych kolekcji, będących elementami tej x-listy
+-collect(Function) - zwraca nową x-listę, której elemenatmi są wyniki funkcji stosowanej wobec elementów tej x-listy,
+-join([sep]) - zwraca napis, będący połączeniem elementów tej x-listy, z ewentualnie wstawionym pomiędzy nie separatorem,
+-forEachWithIndex(konsumer_z_dwoma argumentami: element, index) - do iterowania po liście z dostępem i do elementów i do ich indeksów.
+
+Ten program wypisuje na konsoli:
+
+[1, 3, 9, 11]
+[5, 6, 9]
+[100, 200, 300]
+[100, 200, 300]
+[3, 4, 5]
+[3, 4, 5]
+[a, l, a,  , m, a,  , k, o, t, a]
+[ala, ma, kota]
+[A, B, C]
+[1, 3, 9, 11, 5, 6, 9]
+[1, 3, 9, 11, 5, 6, 9, 11]
+[1, 3, 9, 11, 5, 6, 9, 11]
+[1, 3, 9, 11, 5, 6, 9, 11, 100, 200, 300, 4, 4]
+[1, 3, 9, 11, 5, 6, 9, 11, 100, 200, 300, 4, 4, 3, 4, 5]
+[1, 9, 11, 6, 9, 11, 100, 200, 300]
+[]
+[1, 3, 9, 11, 5, 6, 100, 200, 300, 4]
+[[a, b], [X, Y, Z], [1, 2]]
+[[a, X, 1], [b, X, 1], [a, Y, 1], [b, Y, 1], [a, Z, 1], [b, Z, 1], [a, X, 2], [b, X, 2], [a, Y, 2], [b, Y, 2], [a, Z, 2], [b, Z, 2]]
+aX1 bX1 aY1 bY1 aZ1 bZ1 aX2 bX2 aY2 bY2 aZ2 bZ2
+a-X-1 b-X-1 a-Y-1 b-Y-1 a-Z-1 b-Z-1 a-X-2 b-X-2 a-Y-2 b-Y-2 a-Z-2 b-Z-2
+[2, 4, 16, 20, 22, 60, 6, 8]
+[4, 16, 22, 60, 8]
+[16, 22, 60, 8]
