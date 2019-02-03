@@ -357,3 +357,18 @@ Uwagi:
 
 trzeba dostarczyć definicji klasy Futil,
 należy zastosować metody przetwarzania strumieniowego (chodzi o java.util.stream).
+
+### UTP9
+
+1. **zadanie**
+
+Zadanie:
+
+Na liście słów z [Link](http://wiki.puzzlers.org/pub/wordlists/unixdict.txt) znaleźć wszystkie anagramy.
+Wypisać słowa z maksymalną liczbą anagramów oraz wszystkie ich anagramy w postaci:
+```
+slowo anagram1 anagram2 ....
+```
+Program ma być bardzo krótki , dzięki zastosowaniu przetwarzania strumieniowego (java.util.stream).
+
+2. **zadanie**
