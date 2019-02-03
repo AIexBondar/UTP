@@ -245,3 +245,41 @@ Oprócz tego dostarczyć metod:
 - collect(Function) - zwraca nową x-listę, której elemenatmi są wyniki funkcji stosowanej wobec elementów tej x-listy,
 - join([sep]) - zwraca napis, będący połączeniem elementów tej x-listy, z ewentualnie wstawionym pomiędzy nie separatorem,
 - forEachWithIndex(konsumer_z_dwoma argumentami: element, index) - do iterowania po liście z dostępem i do elementów i do ich indeksów.
+
+### UTP6
+
+W pliku allwords.txt, znajdującym się w katalogu  {user.home} zapisane są (rozdzielone białymi znakami) słowa.
+Znaleźć wszystkie anagramy, które można utworzyć z  tych słów i wypisac je jako listy słów na konsoli w porządku liczby anagramów. 
+Przy takiej samej liczbie anagramów listy wypisywane są w porządku alfabetycznym pierwszego słowa na liście.
+
+Dla realizacji tego zadania w klasie Anagrams utworzyć metodę getSortedByAnQty(), która zwraca listę list słów będacych anagramami, uporządkowaną wedle podanych wyżej kryteriów.
+W klasie tej dostarczyć także metody String getAnagramsFor(String word), która zwraca napis, przedstwiający listę anagramów dla podanego słowa w postaci:
+
+```
+słowo: [ anagram1, anagram2, ... , anagramN]
+```
+
+Jeśli  słowo nie ma nagramow lista jest pusta (po dwukropku mamy [] ). Jesli podanego słowa nie ma w pliku allwords.txt to po dwukropku powinnien znaleźć się napis null.
+
+Słowa dla których będziemy szukać anagramów, wczytywane są z pliku o nazwie {user.home}/wordsToFind. 
+
+Przykładowo, jeśli plik allwords.txt zawiera  słowa:
+```
+andes danes deans evil gals lags levi live sedan
+slag streets testers uprising veil vile
+```
+a plik wordsToFind słowa:
+```
+evil streets uprising
+```
+- to program (zaczynający wykonanie od obowiązkowej klasy Main) powinien wyprowadzić następującą informację
+
+[evil, levi, live, veil, vile]
+[andes, danes, deans, sedan]
+[gals, lags, slag]
+[streets, testers]
+[uprising]
+************************
+evil: [levi, live, veil, vile]
+streets: [testers]
+uprising: []
