@@ -51,6 +51,7 @@ I na koniec: nie przejmujemy się tym, że np. róże mogą mieć wiele kolorów
 
 ### UTP3
 1. zadanie1
+
 Zadanie: ceny przelotów - lambda1
 
 Lista dest zawiera informacje o cenach przelotów w postaci napisów:
@@ -74,11 +75,12 @@ w zadaniu nie wolno korzystać z własnych interfejsów,
 klasa ListCreator i jej metody powinny działać dla list (źródłowej i docelowej) elementów dowolnego typu.
 
 Programma wyprowadzić na konsolę napisy:
-to HAV - price in PLN:	5160
-to DPS - price in PLN:	8600
-to HKT - price in PLN:	4300
+- to HAV - price in PLN: 5160
+- to DPS - price in PLN: 8600
+- to HKT - price in PLN: 4300
 
 2. zadanie2
+
 Zadanie: ceny przelotów - lambda2
 
 Lista dest zawiera informacje o cenach przelotów w postaci napisów:
@@ -110,6 +112,6 @@ public class Main {
 }
 ```
 Program ma wyprowadzić na konsolę:
-to HAV - price in PLN:	5160
-to DPS - price in PLN:	8600
-to HKT - price in PLN:	4300
+- to HAV - price in PLN: 5160
+- to DPS - price in PLN: 8600
+- to HKT - price in PLN: 4300
