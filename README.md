@@ -345,3 +345,15 @@ Uwagi:
 zgodność informacji wyjściowej z oczekiwanym wynikiem (w tym kolejność pokazywania danych)  jest istotna – wynika z zastosowania odpowiednich map i innych klas kolekcyjnych.
 Uniwersalność metod sorted i filtered (możliwość ich zastosowania dla innych niż w zadaniu map).W klasie ProgLang  nie wolno używac surowych typów.
 
+### UTP8
+
+Zadanie 'walkFileTree':
+
+Katalog {user.home}/UTP6dir  zawiera pliki tekstowe (z rozszerzeniem .txt) umieszczone w różnych podkatalogach. Kodowanie plików to Cp1250. 
+Przeglądając rekursywnie drzewo katalogowe, zaczynające się od {user.home}/UTP6dir,  wczytaać wszystkie te pliki. i połączoną ich zawartość zapisać do pliku o nazwie UTP6res.txt, znadującym się w katalogu projektu. Kodowanie pliku 
+UTP6res.txt winno być UTF-8.
+
+Uwagi:
+
+trzeba dostarczyć definicji klasy Futil,
+należy zastosować metody przetwarzania strumieniowego (chodzi o java.util.stream).
