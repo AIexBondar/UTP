@@ -50,7 +50,7 @@ Warto zwrócić uwagę na odpowiednio zdefiniowanie metody toString() w niektór
 I na koniec: nie przejmujemy się tym, że np. róże mogą mieć wiele kolorów. Dla uproszczenia przyjęliśmy, że róże są czerwone itd.
 
 ### UTP3
-1. zadanie1
+1. **zadanie 1**
 
 Zadanie: ceny przelotów - lambda1
 
@@ -79,7 +79,7 @@ Programma wyprowadzić na konsolę napisy:
 - to DPS - price in PLN: 8600
 - to HKT - price in PLN: 4300
 
-2. zadanie2
+2. **zadanie 2**
 
 Zadanie: ceny przelotów - lambda2
 
