@@ -50,7 +50,7 @@ Warto zwrócić uwagę na odpowiednio zdefiniowanie metody toString() w niektór
 I na koniec: nie przejmujemy się tym, że np. róże mogą mieć wiele kolorów. Dla uproszczenia przyjęliśmy, że róże są czerwone itd.
 
 ### UTP3
-1. **zadanie 1**
+1. **zadanie**
 
 Zadanie: ceny przelotów - lambda1
 
@@ -79,7 +79,7 @@ Programma wyprowadzić na konsolę napisy:
 - to DPS - price in PLN: 8600
 - to HKT - price in PLN: 4300
 
-2. **zadanie 2**
+2. **zadanie**
 
 Zadanie: ceny przelotów - lambda2
 
@@ -115,3 +115,44 @@ Program ma wyprowadzić na konsolę:
 - to HAV - price in PLN: 5160
 - to DPS - price in PLN: 8600
 - to HKT - price in PLN: 4300
+
+### UTP4
+1. **zadanie**
+Zadanie: Generics
+
+Stworzyć sparametryzowane interfejsy:
+- Selector - z metodą select, zwracającą true jesli argument spełnia warunek zapisany w metodzoe i false w przeciwnym razie
+- Mapper - z metodą map, będącą dowolną funkcją: argument -> wynik
+- oraz  sparametryzowaną klasę ListCreator, zawierającą:
+- statyczną metodę collectFrom (lista)
+- metodę when
+- metodę mapEvery
+
+które działają w taki sposób, że symboliczny zapis:
+```
+ collectFrom(list1).when(selektor).mapEvery(mapper)
+```
+spowoduje utworzenie listy wynikowej, której elementy stanowią wybrane przez selektor elementy listy list1, przekształacone za pomocą podanego mappera.
+
+Gdy w metodzie test1 selektor wybiera z listy liczby < 10, a mapper zwraca liczbę-argument powiększoną o 10, to na konsoli powinniśmy zobaczyć:
+[11, 17, 19]
+
+Gdy w metodzie test2  selektor wybiera z listy napisy, których długiość jest  większa od 3 znakow, a mapper dzwraca dlugość przekazanego napisu, powiększoną o 10, to na konsoli zobaczymy:
+[14, 17]
+
+2. **zadanie**
+Zadanie: klasa Maybe
+
+Zdefiniować klasę Maybe o następujących właściwościach.
+
+Obiekty Maybe reprezentują kontenery, które mogą zawierać lub nie pojedynczą wartość. Motywacją do wprowadzenia takiej konstrukcji jest ułatwienie programowania w sytuacji, gdy zmienna może mieć wartość null, szczególnie kiedy wymagane jest jej dalsze bezpieczne przetwarzanie (na przykład za pomocą lambda-wyrażeń, oznaczających jakieś funkcje). Bezpieczne - to znaczy takie, które nie powoduje wyjątku NullPointerException.
+
+Obiekty typu Maybe zawierają jakąś wartość lub są puste (nigdy nie powinny mieć wartości null). 
+W klasie Maybe zdefiniować następujące metody:
+- Maybe.of(x) - ta metoda statyczna zwraca obiekt Maybe, „opakowujący” wartość x, dowolnego typu referencyjnego.
+- void ifPresent(Consumer cons)  - jeżeli w obiekcie Maybe znajduje się wartość, wykonywana jest operacja cons z tą wartością jako argumentem, w przeciwnym razie - gdy obiekt Maybe jest pusty - nic się nie dzieje.
+- Maybe map(Function func) -  jeżeli w obiekcie  jest wartość, wykonywana jest funkcja func z tą wartością jako argumentem i zwracany jest jej wynik „zapakowany” w nowy obiekt klasy Maybe (to opakowanie jest niezbędne, bo wynik mógłby być null, a tego chcemy uniknąć w ewentualnym dalszym przetwarzaniu; jeśli wynikiem funkcji jest null, zwracany jest pusty obiekt klasy Maybe).
+- T get() zwraca zawartość obiektu Maybe, ale jeśli jest on pusty, powinna zgłosić wyjątek NoSuchElementException.
+boolean isPresent() - zwraca true jeśli w obiekcie Maybe zawarta jest wartośc, a false - gdy jest on pusty
+- T orElse(T defVal) - zwraca zawartość obiektu Maybe lub domyślną wartosć defVal, jeśli obiekt Maybe jest pusty.
+- Maybe filter(Predicate pred)  - zwraca  to Maybe, jeśli spełniony jest warunek pred lub to Maybe jest puste; zwraca puste Maybe, jeśli warunek pred jest niespełniony.
