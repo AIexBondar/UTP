@@ -118,6 +118,7 @@ Program ma wyprowadzić na konsolę:
 
 ### UTP4
 1. **zadanie**
+
 Zadanie: Generics
 
 Stworzyć sparametryzowane interfejsy:
@@ -141,6 +142,7 @@ Gdy w metodzie test2  selektor wybiera z listy napisy, których długiość jest
 [14, 17]
 
 2. **zadanie**
+
 Zadanie: klasa Maybe
 
 Zdefiniować klasę Maybe o następujących właściwościach.
@@ -156,3 +158,83 @@ W klasie Maybe zdefiniować następujące metody:
 boolean isPresent() - zwraca true jeśli w obiekcie Maybe zawarta jest wartośc, a false - gdy jest on pusty
 - T orElse(T defVal) - zwraca zawartość obiektu Maybe lub domyślną wartosć defVal, jeśli obiekt Maybe jest pusty.
 - Maybe filter(Predicate pred)  - zwraca  to Maybe, jeśli spełniony jest warunek pred lub to Maybe jest puste; zwraca puste Maybe, jeśli warunek pred jest niespełniony.
+
+### UTP5
+1. **zadanie**
+
+Zadanie badawczo-analityczne: 
+
+klasa InputConverter - bezpieczeństwo fazy wykonania
+
+Zobaczmy przykładowy fragment z poprzedniego zadania:
+```
+  public static void main(String[] args) {
+    /*
+     *  definicja operacji w postaci lambda-wyrażeń:
+     *  - flines - zwraca listę wierszy z pliku tekstowego
+     *  - join - łączy napisy z listy (zwraca napis połączonych ze sobą elementów listy napisów)
+     *  - collectInts - zwraca listę liczb całkowitych zawartych w napisie
+     *  - sum - zwraca sumę elmentów listy liczb całkowitych
+     */
+
+    String fname = System.getProperty("user.home") + "/LamComFile.txt"; 
+    InputConverter<String> fileConv = new InputConverter<>(fname);
+    List<String> lines = fileConv.convertBy(flines);
+    String text = fileConv.convertBy(flines, join);
+    List<Integer> ints = fileConv.convertBy(flines, join, collectInts);
+    Integer sumints = fileConv.convertBy(flines, join, collectInts, sum);
+
+    System.out.println(lines);
+    System.out.println(text);
+    System.out.println(ints);
+    System.out.println(sumints);
+
+    List<String> arglist = Arrays.asList(args);
+    InputConverter<List<String>> slistConv = new InputConverter<>(arglist);  
+    sumints = slistConv.convertBy(join, collectInts, sum);
+    System.out.println(sumints);
+  }
+```
+Przy powierzchownej konstrukcji klasy InputConverter i metody  convertBy  następujący fragment:
+```
+ slistConv.convertBy(collectInts, sum); 
+```
+spowoduje powstanie wyjątku ClassCastException
+
+Zadania badawcze:
+ jak temu zaradzić w fazie wykonania programu, tak by uzyskiwać operacyjne wyniki (i nigdy NullPointerException)
+
+To wymaga odpowiedniej definicji klasy InputConverter oraz ew. modyfikacji klasy Main (są tu dozwolone) .
+
+2. **zadanie**
+
+Zadanie badawcze
+Przekazywanie wyjątków kontrolowanych z lambda-wyrażeń do obsługi w bloku otaczającym lambda.
+
+W kontekście:
+
+```
+  public static void main(String[] args) throws IOException {
+    /*<--
+     *  definicja operacji w postaci lambda-wyrażeń :
+     *  - flines - zwraca listę wierszy z pliku tekstowego
+     *  - join - łączy napisy z listy (zwraca napis połączonych ze sobą elementów listy napisów)
+     *  - collectInts - zwraca listę liczb całkowitych zawartych w napisie
+     *  - sum - zwraca sumę elmentów listy liczb całkowitych
+     */
+
+    String fname = System.getProperty("user.home") + "/LamComFile.txt"; 
+    InputConverter<String> fileConv = new InputConverter<>(fname);
+    List<String> lines = fileConv.convertBy(flines);
+   // ....
+}
+```
+
+Uwaga: w programie nie wolno definiować żadnych własnych interfejsów (za wyjątkiem być może rozszerzeń interfejsów z pakietu java.util.function), a więc operacje flines, join, itp. muszą opierać się na gotowych interfejsach funkcyjnych z pakietu java.util.function lub ich rozszerzeniach.
+
+Operacja flines zawiera odczyt pliku, zatem może powstać wyjątek IOException.
+Wymagane jest, aby tę operację zdefiniowac jako lambda-wyrażenie.
+Ale z lambda wyrażeń, opierających się na interfejsach funkcyjnych z pakietu java.util.function, nie możemy przekazać obsługi wyjatków do otaczającego bloku.
+I wobec tego musimy pisać w definicji flines try { } catch { }
+Jak spowodować, aby nie było to konieczne i w przypadku powstania wyjątku IOException
+zadziałała klauzula throws metody main ?
