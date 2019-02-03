@@ -272,8 +272,8 @@ a plik wordsToFind słowa:
 ```
 evil streets uprising
 ```
-- to program (zaczynający wykonanie od obowiązkowej klasy Main) powinien wyprowadzić następującą informację
-
+to program (zaczynający wykonanie od obowiązkowej klasy Main) powinien wyprowadzić następującą informację
+```
 [evil, levi, live, veil, vile]
 [andes, danes, deans, sedan]
 [gals, lags, slag]
@@ -283,3 +283,4 @@ evil streets uprising
 evil: [levi, live, veil, vile]
 streets: [testers]
 uprising: []
+```
