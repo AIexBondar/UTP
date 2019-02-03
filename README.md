@@ -347,16 +347,26 @@ Uniwersalność metod sorted i filtered (możliwość ich zastosowania dla innyc
 
 ### UTP8
 
-Zadanie 'walkFileTree':
+Zadanie 'FileVisitor':
 
 Katalog {user.home}/UTP6dir  zawiera pliki tekstowe (z rozszerzeniem .txt) umieszczone w różnych podkatalogach. Kodowanie plików to Cp1250. 
-Przeglądając rekursywnie drzewo katalogowe, zaczynające się od {user.home}/UTP6dir,  wczytaać wszystkie te pliki. i połączoną ich zawartość zapisać do pliku o nazwie UTP6res.txt, znadującym się w katalogu projektu. Kodowanie pliku 
+Przeglądając rekursywnie drzewo katalogowe, zaczynające się od {user.home}/UTP6dir,  wczytać wszystkie te pliki. i połączoną ich zawartość zapisać do pliku o nazwie UTP6res.txt, znadującym się w katalogu projektu. Kodowanie pliku 
 UTP6res.txt winno być UTF-8.
+
+Poniższy gotowy fragment winien wykonać całą robotę:
+      public class Main {
+        public static void main(String[] args) {
+          String dirName = System.getProperty("user.home")+"/UTP6dir";
+          String resultFileName = "UTP6res.txt";
+          Futil.processDir(dirName, resultFileName);
+        }
+      }
 
 Uwagi:
 
-trzeba dostarczyć definicji klasy Futil,
-należy zastosować metody przetwarzania strumieniowego (chodzi o java.util.stream).
+- trzeba dostarczyć definicji klasy Futil,
+- należy zastosować FileVisitor do przeglądania katalogu,
+- nalezy zalożyć, że na starcie programu  wynikowego pliku nie ma.
 
 ### UTP9
 
@@ -364,7 +374,7 @@ należy zastosować metody przetwarzania strumieniowego (chodzi o java.util.stre
 
 Zadanie:
 
-Na liście słów z [Link](http://wiki.puzzlers.org/pub/wordlists/unixdict.txt) znaleźć wszystkie anagramy.
+Na liście słów z [Wiki link](http://wiki.puzzlers.org/pub/wordlists/unixdict.txt) znaleźć wszystkie anagramy.
 Wypisać słowa z maksymalną liczbą anagramów oraz wszystkie ich anagramy w postaci:
 ```
 slowo anagram1 anagram2 ....
@@ -372,3 +382,14 @@ slowo anagram1 anagram2 ....
 Program ma być bardzo krótki , dzięki zastosowaniu przetwarzania strumieniowego (java.util.stream).
 
 2. **zadanie**
+
+Zadanie 'walkFileTree stream':
+
+Katalog {user.home}/UTP6dir  zawiera pliki tekstowe (z rozszerzeniem .txt) umieszczone w różnych podkatalogach. Kodowanie plików to Cp1250. 
+Przeglądając rekursywnie drzewo katalogowe, zaczynające się od {user.home}/UTP6dir,  wczytaać wszystkie te pliki. i połączoną ich zawartość zapisać do pliku o nazwie UTP6res.txt, znadującym się w katalogu projektu. Kodowanie pliku 
+UTP6res.txt winno być UTF-8.
+
+Uwagi:
+
+- trzeba dostarczyć definicji klasy Futil,
+- należy zastosować metody przetwarzania strumieniowego (chodzi o java.util.stream).
