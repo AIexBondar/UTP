@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 
 public class MyJFrame extends JFrame{
 	
-	String name;sads
+	String name;
 	
 	public MyJFrame(String name) {
 		super();
