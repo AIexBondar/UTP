@@ -63,7 +63,7 @@ public class Database {
 		}
 	}
 
-	public void showGui() {
+	public void show() {
 		Statement statment;
 		
 		try {

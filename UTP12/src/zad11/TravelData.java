@@ -87,9 +87,8 @@ public class TravelData {
 				resString += "	" + simpleDateFormat.format(data);
 				
 				//miejsce
-				//ResourceBundle bundle = ResourceBundle.getBundle("PlacesInfo", localeSaved);
-				//resString += " " + bundle.getString(list.get(4));
-				resString += "	" + list.get(4);
+				ResourceBundle labels = ResourceBundle.getBundle("zad11.LabelsBundle", localeSaved);
+				resString += "	" + labels.getString(list.get(4));
 				
 				//cena
 				NumberFormat nFormat = NumberFormat.getInstance(locale);

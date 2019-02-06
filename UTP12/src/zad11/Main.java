@@ -20,11 +20,11 @@ public class Main {
       List<String> odlist = travelData.getOffersDescriptionsList(locale, dateFormat);
       for (String od : odlist) System.out.println(od);
     }
-    // --- część bazodanowa
+    
     String url = "jdbc:derby:myDataBaseDerby;create=true";
     Database db = new Database(url, travelData);
     db.create();
-    db.showGui();
+    db.show();
   }
 
 }
