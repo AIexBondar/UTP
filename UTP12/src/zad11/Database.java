@@ -2,6 +2,7 @@ package zad11;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
@@ -47,14 +48,32 @@ public class Database {
 					+ "symbol_waluty varchar(10))"
 					);
 			
+			PreparedStatement pstmt = connection.prepareStatement("INSERT INTO Oferta VALUES(?,?,?,?,?,?,?)");
 			for (String line : travelData.getResList()) {
 				String[] tokens = line.split("\\t");
-				connection.createStatement().execute(
+				
+				//set id
+				pstmt.setInt(1, id);
+				id++;
+				//set kraj
+				pstmt.setString(2, tokens[0]);
+				//set data_wyjazdu
+				pstmt.setString(3, tokens[1]);
+				//set data_powrotu
+				pstmt.setString(4, tokens[2]);
+				//set miejsce
+				pstmt.setString(5, tokens[3]);
+				//set cena
+				pstmt.setString(6, tokens[4]);
+				//set symbol_waluty
+				pstmt.setString(7, tokens[5]);
+				//update
+				pstmt.executeUpdate(); 
+				
+				/*connection.createStatement().execute(
 						"INSERT INTO Oferta(id, kraj, data_wyjazdu, data_powrotu, miejsce, cena, symbol_waluty) VALUES "
 						+ "("+id+", "+"'"+tokens[0]+"', " + "'"+tokens[1]+"', " + "'"+tokens[2]+"', " + "'"+tokens[3]+"'," + "'"+tokens[4]+"', " + "'"+tokens[5]+"')"
-						);
-				
-				id++;
+						);*/
 			}
 			
 		} catch (SQLException e) {
