@@ -1,6 +1,10 @@
-# UTP
-Uniwersalne techniki progrmowania w javie zadania:
+# Name
+Uniwersalne techniki progrmowania w javie.
 
+# Description
+Repository zawierające baze projeków uczelnianych opartych na javie core 8 i jej funkcjach: lambda wyrażenia, strumienie, interfejsy funkcyjne oraz m.in jdbc, generics.
+
+# List of tasks
 ### UTP 1
 Zadanie: tabela państw
 
