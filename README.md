@@ -1,3 +1,6 @@
+# Hi you
+If you are **pjatk** student (for 99,9 % you are :) ) please note this Java tasks are not most skillfully done. I suggest doing this cases yourself without copy paste! Just check solutions if it is in necessity. We learn best from our own mistakes. Good luck.
+
 # Name
 Uniwersalne techniki progrmowania w javie.
 
